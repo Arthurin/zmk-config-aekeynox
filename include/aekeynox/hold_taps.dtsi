@@ -141,7 +141,7 @@
 #elifdef HT_HOME_ROW_MODS
   #define LTHUMB_TUCK   &EZ_SK(LSHIFT)
   #define LTHUMB_HOME   LTHUMB_HRM
-  #define LTHUMB_REACH  &sc HRM_LAYER REACH_TAP
+  #define LTHUMB_REACH  &sc HRM_LAYER ENTER
   #define RTHUMB_REACH  &sc HRM_LAYER ENTER
   #define RTHUMB_HOME   RTHUMB_HRM
   #define RTHUMB_TUCK   &sym_shift_altgr
