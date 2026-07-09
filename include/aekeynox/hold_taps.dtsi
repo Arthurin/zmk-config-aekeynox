@@ -85,7 +85,7 @@
 #ifdef ENABLE_MOD_HOLD_NAVIGATION
   #define NAV_SC &mhsc
 #else
-  #define NAV_SC &sc
+  #define NAV_SC &lt
 #endif
 
 #ifdef VIM_NAVIGATION
