@@ -36,12 +36,13 @@
   #define ALT_CTL LALT
 #endif
 
-#define H_S &hrm GUI_OPT
-#define H_D &hrm CTL_CMD
-#define H_F &hrm ALT_CTL
-#define H_J &hrm ALT_CTL
-#define H_K &hrm CTL_CMD
-#define H_L &hrm GUI_OPT
+#define H_S &hrm LALT
+#define H_D &mhhrm LSHIFT
+#define H_F &hrm CTL_CMD
+#define H_J &hrm LCTL
+#define H_K &mhhrm LSHIFT
+#define H_L &hrm LALT
+#define H_pinky_right &hrm GUI_OPT
 
 #if defined HRM_SHIFT && defined PINKY_MOD_HOLD
   #define H_A    &mhhrm LSHIFT
@@ -65,7 +66,7 @@
   #define HRM_J    H_J J
   #define HRM_K    H_K K
   #define HRM_L    H_L L
-  #define HRM_SEMI H_SEMI SEMI
+  #define HRM_SEMI H_pinky_right SEMI
 #else
   #define HRM_A    &kp A
   #define HRM_S    &kp S
