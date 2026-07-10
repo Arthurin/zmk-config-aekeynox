@@ -86,8 +86,8 @@
     nav_num_layer: nav_num_layer {
       display-name = "NavNum";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
-        &trans  ,  &kp ESC  &kp HOME &kp UP   &kp END   &kp PG_UP   ,   &to NUM_LOCK_LAYER S_N7  S_N8  S_N9  S_MONEY  ,  &trans ,
-        &trans  ,  X_ALL    &kp LEFT &kp DOWN &kp RIGHT &kp DEL   ,   S_MINUS            S_N4  S_N5  S_N6  S_N0    ,  &trans ,
+        &trans  ,  &kp ESC  &kp LEFT &kp UP   &kp RIGHT   &kp PG_UP   ,   &to NUM_LOCK_LAYER S_N7  S_N8  S_N9  S_MONEY  ,  &trans ,
+        &trans  ,  X_ALL    &kp CMD(LEFT) &kp DOWN  &kp CMD(RIGHT)  &kp DEL   ,   S_MINUS            S_N4  S_N5  S_N6  S_N0    ,  &trans ,
         &trans  ,  X_UNDO   X_CUT    X_COPY   X_PASTE   X_REDO      ,   S_COMMA            S_N1  S_N2  S_N3  S_DOT   ,  &trans ,
       &trans , &kp BACKSPACE , &kp SPACE   ,   &trans , &trans , &EZ_LSK(RALT)
       )>;
