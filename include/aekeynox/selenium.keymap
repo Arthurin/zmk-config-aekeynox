@@ -79,7 +79,7 @@
     };
 
     // 4. LeftNavRightNum - la partie de droite pourrait être remplacée pour autre chose comme du controle de la souris. 
-                         -- À terme, soit je garde le pavé numérique en miroir soit j’ai deux layers avec la partie droite du clavier de disponible
+    //                    -- À terme, soit je garde le pavé numérique en miroir soit j’ai deux layers avec la partie droite du clavier de disponible
     nav_num_layer: nav_num_layer {
       display-name = "LeftNavRightNum";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
