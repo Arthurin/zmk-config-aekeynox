@@ -67,11 +67,9 @@
       )>;
     };
 
-    // 3. LeftNum - ex VimNav layer -- HJKL arrow cluster on the right hand
-    //                 -- best used along with the NumRow layer
-    //                 -- keyboard shortcuts on the left hand are adjusted to the OS layout (Ergol here)
+    // 3. LeftNum - je ne sais pas encore ce que je fais avec la partie de droite, peut-être du controle médias, des smileys
     vim_nav_layer: vim_nav_layer {
-      display-name = "VimNav";
+      display-name = "LeftNum";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
         &trans  ,  S_FSLH             S_N7  S_N8  S_N9  S_MONEY ,   &to NUM_LOCK_LAYER S_N7  S_N8  S_N9  S_MONEY  ,  &trans ,
         &trans  ,  S_N0            S_N4  S_N5  S_N6  S_MINUS  ,   S_MINUS            S_N4  S_N5  S_N6  S_N0    ,  &trans ,
@@ -80,16 +78,15 @@
       )>;
     };
 
-    // 4. NavRightNum - ex NavNum layer -- inverted T arrow cluster on the left hand, numpad on the right hand
-    //                 -- can be the only extra layer you need if you're not too picky with number+symbols n-grams
-    //                 -- keyboard shortcuts on the left hand are adjusted to the OS layout (Ergol here)
+    // 4. LeftNavRightNum - la partie de droite pourrait être remplacée pour autre chose comme du controle de la souris. 
+                         -- À terme, soit je garde le pavé numérique en miroir soit j’ai deux layers avec la partie droite du clavier de disponible
     nav_num_layer: nav_num_layer {
-      display-name = "NavNum";
+      display-name = "LeftNavRightNum";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
         &trans  ,  &kp ESC  &kp LEFT &kp UP   &kp RIGHT   &kp PG_UP   ,   &to NUM_LOCK_LAYER S_N7  S_N8  S_N9  S_MONEY  ,  &trans ,
         &trans  ,  X_ALL    &kp CMD(LEFT) &kp DOWN  &kp CMD(RIGHT)  &kp DEL   ,   S_MINUS            S_N4  S_N5  S_N6  S_N0    ,  &trans ,
         &trans  ,  X_UNDO   X_CUT    X_COPY   X_PASTE   X_REDO      ,   S_COMMA            S_N1  S_N2  S_N3  S_DOT   ,  &trans ,
-      &trans , &kp SPACE , S_QMARK   ,   &trans , &trans , &EZ_LSK(RALT)
+      &trans , &kp SPACE , &trans   ,   &trans , &trans , &EZ_LSK(RALT)
       )>;
     };
 
