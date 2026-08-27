@@ -110,9 +110,9 @@
     fn_media_layer: fn_media_layer {
       display-name = "FnMedia";
       bindings = <SELENIUM_KEYMAP_BINDINGS(
-        &trans  ,  &kp F1  &kp F2  &kp F3  &kp F4  &none   ,   &trans  &kp C_NEXT  &kp C_VOL_UP  &kp C_BRI_UP   &trans      ,  &trans ,
-        &trans  ,  &kp F5  &kp F6  &kp F7  &kp F8  &none   ,   &trans  H_J C_PP    H_K C_MUTE    H_L C_AL_LOCK  H_SEMI PSCRN  ,  &trans ,
-        &trans  ,  &kp F9  &kp F10 &kp F11 &kp F12 &none   ,   &trans &kp C_PREV  &kp C_VOL_DN  &kp C_BRI_DN   &trans       ,  &trans ,
+        &trans  ,  &none &kp F7  &kp F8  &kp F9  &kp F12   ,   &trans  &kp C_NEXT  &kp C_VOL_UP  &kp C_BRI_UP   &trans      ,  &trans ,
+        &trans  ,  &none  &kp F4  &kp F5  &kp F6  &kp F11   ,   &trans  H_J C_PP    H_K C_MUTE    H_L C_AL_LOCK  H_SEMI PSCRN  ,  &trans ,
+        &trans  ,  &none  &kp F1 &kp F2 &kp F3 &kp F10   ,   &trans &kp C_PREV  &kp C_VOL_DN  &kp C_BRI_DN   &trans       ,  &trans ,
                            &trans , &trans , &trans   ,   &trans , &trans , &studio_unlock
       )>;
     };
