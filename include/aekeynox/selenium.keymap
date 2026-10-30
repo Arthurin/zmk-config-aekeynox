@@ -63,7 +63,7 @@
         &trans  ,  S_FSLH  &none &none S_DLLR  S_GRAVE   ,   S_AT    S_AMPS  S_STAR  S_SQT   S_BSLH  ,  &kp PSCRN ,
         &trans  ,  S_LBRC  S_LT  S_GT  S_RBRC  S_MONEY   ,   S_LPAR  S_RPAR  S_PLUS S_EQUAL  S_DQT    ,  &trans ,
         &trans  ,  S_TILDE S_LBKT  S_RBKT  S_HASH &none    ,   S_COLON  S_PRCNT  S_CARET  S_SEMI S_PIPE  ,  &trans ,
-                     &trans , &trans , &trans   ,   &trans ,  &trans ,  &trans
+                     &trans , &trans , &kp ENTER   ,   &trans ,  &trans ,  &trans
       )>;
     };
 
